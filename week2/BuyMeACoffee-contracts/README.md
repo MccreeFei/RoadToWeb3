@@ -1,13 +1,3 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+# Alchemy Web3 Course Week2
+- 前端代码 -> [BuyMeACoffee](https://replit.com/@MccreeFei/BuyMeACoffee?v=1)
+- 合约地址 -> 0x515b01cDD1290715a696ecD4665747794aC1Eb02 (Goerli Testnet)
