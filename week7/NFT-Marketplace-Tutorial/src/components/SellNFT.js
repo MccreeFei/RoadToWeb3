@@ -28,7 +28,7 @@ export default function SellNFT () {
         }
     }
 
-    //This function uploads the metadata to IPDS
+    //This function uploads the metadata to IPFS
     async function uploadMetadataToIPFS() {
         const {name, description, price} = formParams;
         //Make sure that none of the fields are empty
@@ -60,7 +60,6 @@ export default function SellNFT () {
             const metadataURL = await uploadMetadataToIPFS();
             //After adding your Hardhat network to your metamask, this code will get providers and signers
             const provider = new ethers.providers.Web3Provider(window.ethereum);
-            // await window.ethereum.enable();
             const signer = provider.getSigner();
             updateMessage("Please wait.. uploading (upto 5 mins)")
 
